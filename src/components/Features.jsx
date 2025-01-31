@@ -18,7 +18,7 @@ const Features = () => {
         <div className="grid grid-cols-2 gap-4">
           {features.map((feature, index) => (
             <div key={index} className="flex space-x-2">
-              <img src="/public/icons/check.svg" alt="Tick Icon" className="w-5 h-5" />
+              <img src="icons/check.svg" alt="Tick Icon" className="w-5 h-5" />
               <span className="text-white">{feature}</span>
             </div>
           ))}

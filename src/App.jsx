@@ -19,9 +19,11 @@ function App() {
         <div className="space-y-6">
           <Discount />
           <BillSummary />
-          <button className="w-full bg-[#EBCE31] text-black text-xl font-bold py-6 rounded-lg shadow-lg hover:bg-yellow-500">
-            Proceed to Pay <span className="font-normal">|</span> ₹ 699/<span className="font-normal">month</span>
-          </button>
+          <div className="flex justify-center md:block"> 
+            <button className="w-[90%] md:w-full mx-auto bg-[#EBCE31] text-black text-xl font-bold py-6 rounded-lg shadow-lg hover:bg-yellow-500 w-[80%]">
+              Proceed to Pay <span className="font-normal">|</span> ₹ 699/<span className="font-normal">month</span>
+            </button>
+          </div>
         </div>
       </div>
       <Footer />

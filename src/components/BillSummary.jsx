@@ -10,7 +10,7 @@ const BillSummary = () => {
         }
     ];
     return (
-        <div className="bg-[#121312] text-white p-5 rounded-2xl shadow-lg">
+        <div className="bg-[#121312] text-white p-5 rounded-2xl shadow-lg mx-4 md:mx-0">
             <h3 className="text-lg font-bold mb-6">BILL SUMMARY</h3>
             {billDetails.map((item,index)=>(
                 <div key={index} className="mb-3">

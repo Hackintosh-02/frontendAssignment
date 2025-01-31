@@ -11,7 +11,7 @@ const features = [
 
 const Features = () => {
     return (
-      <div className="bg-[rgba(73,208,67,0.1)] text-white p-8 md:rounded-3xl shadow-lg">
+      <div className="bg-[rgba(73,208,67,0.1)] text-white p-8 md:rounded-3xl shadow-lg ">
         <h3 className="bg-gradient-to-r from-[#74C928] to-[#FFB912] bg-clip-text text-transparent text-2xl font-semibold mb-6">
           Learn, Build, Network & Earn
         </h3>   

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discount = () => {
   return (
-    <div className="bg-[#121312] text-white p-5 rounded-2xl shadow-lg">
+    <div className="bg-[#121312] text-white p-5 rounded-2xl shadow-lg mx-4 md:mx-0">
         <div className="pb-3">
             <span className='font-bold text-[#FFB912]'>"YEAR25"</span>
             <span className='text-[#FFB912]'>Applied & </span>    
